@@ -1,5 +1,5 @@
 # .github/workflows/docs-builder.yml
-name: 📘 Markdown to HTML Docs Builder
+name: 📘 Markdown to HTML Docs Builders
 
 on:
   push:
