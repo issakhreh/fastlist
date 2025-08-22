@@ -25,7 +25,7 @@ jobs:
     - name: 🏗 Convert Markdown to HTML
       run: |
         mkdir -p html
-        for file in docs/*.md; do
+        for file in docs/*.md; d
           markdown-to-html "$file" > "html/$(basename "$file" .md).html"
         done
 
