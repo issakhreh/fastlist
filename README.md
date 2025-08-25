@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: '18'
 
-    - name: 📦 Install markdown converter
+    - name: 📦 Install markdown convert
       run: |
         npm install -g markdown-to-html
 
